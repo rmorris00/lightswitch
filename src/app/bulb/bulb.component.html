@@ -1,0 +1,3 @@
+<div id="bulb" [ngClass]="status ? 'on' : 'off'">
+    <app-switch (switchEmitter)=switchStatus($event)></app-switch>
+</div>

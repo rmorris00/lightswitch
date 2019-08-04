@@ -1,0 +1,12 @@
+#bulb {
+    height: 300px;
+    width: 300px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 150px;
+}
+
+.on {
+    background-color: yellow;
+}
